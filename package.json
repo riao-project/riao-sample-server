@@ -1,5 +1,5 @@
 {
-	"name": "{{project-name}}",
+	"name": "riao-sample-server",
 	"version": "1.0.0",
 	"typescript-template": {
 		"base": "1.0.0",
