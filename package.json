@@ -20,6 +20,9 @@
 		"script": "ts-node scripts"
 	},
 	"dependencies": {
+		"riao-dbal": "file:../riao-dbal",
+		"riao-driver-mssql": "file:../riao-driver-mssql",
+		"riao-driver-mysql": "file:../riao-driver-mysql",
 		"ts-appconfig": "^1.2.0",
 		"ts-async-bootstrap": "^2.1.0",
 		"ts-error-handler": "^1.0.2",
@@ -38,6 +41,7 @@
 		"prettier": "^2.8.0",
 		"prettier-eslint": "^15.0.1",
 		"prettier-eslint-cli": "^7.1.0",
+		"riao-cli": "file:../riao-cli/dist/src",
 		"ts-node": "^10.9.1",
 		"typedoc": "^0.23.21",
 		"typescript": "^4.9.3"

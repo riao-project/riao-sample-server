@@ -41,6 +41,7 @@ jspm_packages/
 
 # dotenv environment variables file
 .env
+*.env
 
 # Build directory
 dist/
@@ -50,3 +51,5 @@ dist/
 
 # Docs build
 docs/
+
+database/**/.schema/

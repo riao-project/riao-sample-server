@@ -1,12 +1,13 @@
+import { maindb } from '../database/main';
 import { log } from './log';
 
 /**
  * Initialize & register your app's services here
  */
 export async function register(): Promise<void> {
-	log.info('Booting...');
-
-	// TODO: Register services here
+	log.info('Booting...'); 
+	// Register services here
+	await maindb.init(); // <<< Add this line!
 }
 
 /**
@@ -15,5 +16,6 @@ export async function register(): Promise<void> {
 export async function teardown(): Promise<void> {
 	log.info('Tearing down...');
 
-	// TODO: Teardown services here
+	// Teardown services here
+	await maindb.disconnect(); // <<< Add this line!
 }
