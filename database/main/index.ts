@@ -1,6 +1,6 @@
-import { DatabaseMsSql2017 } from 'riao-driver-mssql/src';
+import { DatabaseMySql8 } from '@riao/mysql';
 
-export default class MainDatabase extends DatabaseMsSql2017 {
+export default class MainDatabase extends DatabaseMySql8 {
 	name = 'main';
 }
 

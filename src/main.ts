@@ -1,7 +1,7 @@
 import { log } from './log';
 import { env } from './env';
 import { maindb } from '../database/main';
-import { columnName } from 'riao-dbal/src';
+import { columnName } from '@riao/dbal';
 
 class User {
 	id?: number;

@@ -1,5 +1,5 @@
-import { ColumnType } from 'riao-dbal/src/column';
-import { Migration } from 'riao-dbal/src/migration';
+import { ColumnType } from '@riao/dbal/column';
+import { Migration } from '@riao/dbal/migration';
 
 export default class CreateUserTable extends Migration {
 	public async up() {

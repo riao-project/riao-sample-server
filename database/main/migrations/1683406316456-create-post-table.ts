@@ -1,4 +1,4 @@
-import { ColumnType, Migration } from 'riao-dbal/src';
+import { ColumnType, Migration } from '@riao/dbal';
 
 export default class CreatePostTable extends Migration {
 	async up() {

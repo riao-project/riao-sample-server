@@ -1,5 +1,5 @@
-import { like } from 'riao-dbal/src';
-import { Seed } from 'riao-dbal/src/seed';
+import { like } from '@riao/dbal';
+import { Seed } from '@riao/dbal/seed';
 
 export default class UserSeed extends Seed {
 	public async up(): Promise<void> {
